@@ -1,0 +1,23 @@
+apiVersion: apps/v1 #version of the Kubernetes API you're using to create this object
+kind: Deployment  #What kind of object you want to create
+metadata: #deployment name, helps uniquely identify the object
+   name: carms
+
+spec:  
+  selector:
+    matchLabels:
+      app: carms
+
+
+  replicas: 1 # tells deployment to run 1 pods matching the template
+  template:
+    metadata:
+      labels:
+        app: carms
+    spec:   #What state you desire for the object
+
+      containers:
+      - name: carms #container name
+        image: 'gopipriya/priyainsurance' #image name
+        ports:
+        - containerPort: 8007 # bootdemo runs on port 80

@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+    
+    
+    carinsurance:        
+        build: carinsurance
+        ports:
+        - 8008:8008
+    travelinsurance:        
+        build: travelinsurance
+        ports:
+        - 8010:8010
+    medicalinsurance:        
+        build: medicalinsurance
+        ports:
+        - 8080:8080
+    homeinsurance:        
+        build: homeinsurance
+        ports:
+        - 8009:8009
+    userandprofile:        
+        build: userandprofile
+        ports:
+        - 8002:8002
+    lifeinsurance:        
+        build: lifeinsurance
+        ports:
+        - 8003:8003   
+                 

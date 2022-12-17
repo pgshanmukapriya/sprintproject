@@ -1,0 +1,92 @@
+[
+    {
+        "medicalPolicyId": 2,
+        "clientName": "Sai",
+        "dateOfPurchase": "3/06/2022",
+        "dateOfExpire": "4/8/2023",
+        "isClaimed": "yes",
+        "claimDate": "9/7/2022",
+        "medicalInsurance": {
+            "mId": 1,
+            "insuranceName": "Accident",
+            "premium": 70000,
+            "sumInsured": 800000,
+            "opdAmmount": 90000,
+            "maxSurgeryAmmount": 200000,
+            "roomRent": 5000
+        },
+        "policyNumber": 300
+    },
+    {
+        "medicalPolicyId": 3,
+        "clientName": "ramesh",
+        "dateOfPurchase": "3/07/2022",
+        "dateOfExpire": "4/7/2023",
+        "isClaimed": "No",
+        "claimDate": "9/2/2022",
+        "medicalInsurance": {
+            "mId": 1,
+            "insuranceName": "Accident",
+            "premium": 70000,
+            "sumInsured": 800000,
+            "opdAmmount": 90000,
+            "maxSurgeryAmmount": 200000,
+            "roomRent": 5000
+        },
+        "policyNumber": 301
+    },
+    {
+        "medicalPolicyId": 6,
+        "clientName": "suresh",
+        "dateOfPurchase": "3/06/2022",
+        "dateOfExpire": "4/7/2023",
+        "isClaimed": "yes",
+        "claimDate": "9/2/2022",
+        "medicalInsurance": {
+            "mId": 1,
+            "insuranceName": "Accident",
+            "premium": 70000,
+            "sumInsured": 800000,
+            "opdAmmount": 90000,
+            "maxSurgeryAmmount": 200000,
+            "roomRent": 5000
+        },
+        "policyNumber": 304
+    },
+    {
+        "medicalPolicyId": 7,
+        "clientName": "suresh",
+        "dateOfPurchase": "3/06/2022",
+        "dateOfExpire": "4/7/2023",
+        "isClaimed": "yes",
+        "claimDate": "9/2/2022",
+        "medicalInsurance": {
+            "mId": 4,
+            "insuranceName": "Family",
+            "premium": 60000,
+            "sumInsured": 900000,
+            "opdAmmount": 60000,
+            "maxSurgeryAmmount": 200000,
+            "roomRent": 5000
+        },
+        "policyNumber": 304
+    },
+    {
+        "medicalPolicyId": 8,
+        "clientName": "Thanu",
+        "dateOfPurchase": "6/03/2022",
+        "dateOfExpire": "4/2/2023",
+        "isClaimed": "No",
+        "claimDate": "9/3/2022",
+        "medicalInsurance": {
+            "mId": 5,
+            "insuranceName": "Fire",
+            "premium": 80000,
+            "sumInsured": 400000,
+            "opdAmmount": 80000,
+            "maxSurgeryAmmount": 300000,
+            "roomRent": 6000
+        },
+        "policyNumber": 303
+    }
+]
